@@ -1,0 +1,48 @@
+:root{
+    --green:#00E77F;
+    --white:#fff;
+    --light-white:#aaa;
+    --black:#3d3d3d;
+    --light-bg:#4b4b4b;
+
+}
+.heading{
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-size: 4rem;
+    /* text-transform: uppercase; */
+    color:var(--white) ;
+}
+.heading span{
+    color: var(--green);
+}
+/* .w{
+    display: flex;
+    overflow-x: hidden;
+    /* flex-wrap: wrap; */
+/* } */ */
+
+.courses .slide{
+    width: 30rem;
+    background-color: var(--light-bg);
+    border-radius: .5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    padding: 2rem;
+}
+
+.courses .slide img{
+    height: 25rem;
+    width: 100%;
+}
+
+.courses .slide h3{
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    color: var(--white);
+}
+.courses .slide p{
+    line-height: 2;
+    font-size: 1.6rem;
+    color: var(--light-white);
+}
